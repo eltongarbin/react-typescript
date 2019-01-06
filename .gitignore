@@ -27,3 +27,4 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+public/build/

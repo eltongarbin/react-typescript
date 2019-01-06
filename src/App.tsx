@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import CheckboxWithLabel from './CheckBoxWithLabel';
 
 // type AppProps = { message: string };
 // const App: React.SFC<AppProps> = ({ message }) => <div>{message}</div>;
@@ -22,12 +22,11 @@ class App extends React.Component<AppProps, AppState> {
     return (
       <div onClick={this.increment}>
         {this.props.message} {this.state.count}
+        <br />
+        <CheckboxWithLabel labelOn="on" labelOff="off" />
       </div>
     );
   }
 }
 
-ReactDOM.render(
-  <App message="Hello world!" />,
-  document.getElementById('root')
-);
+export default App;
