@@ -1,15 +1,11 @@
 {
   "name": "react-typescript",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server -d --content-base ./public"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
@@ -22,5 +18,9 @@
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
     "webpack-dev-server": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltongarbin/react-typescript.git"
   }
 }
